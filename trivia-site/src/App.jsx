@@ -5,7 +5,7 @@ import SettingsModal from './components/SettingsModal';
 import QuestionCard from './components/QuestionCard';
 import GameOver from './components/GameOver';
 
-const INITIAL_SETTINGS = { amount: 10, category: 'any', difficulty: 'any' };
+const INITIAL_SETTINGS = { amount: 10, category: 0, difficulty: 'any' };
 
 export default function App() {
   const [showSettings, setShowSettings] = useState(false);
